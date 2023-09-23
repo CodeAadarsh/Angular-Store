@@ -10,7 +10,21 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
+
+
+
+
+
+
+
+
+
+
+
+
+    MatSnackBarModu1e,
   ],
   providers: [],
   bootstrap: [AppComponent]
