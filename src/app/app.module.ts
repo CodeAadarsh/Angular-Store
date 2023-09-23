@@ -18,10 +18,12 @@ import { MatTableModule, } from '@angular/material/table';
 import { MatSidenavModule, } from '@angular/material/sidenav';
 import { MatBadgeModule, } from '@angular/material/badge';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
